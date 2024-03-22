@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Norse;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.title h1{
+color: #fff;
+font-size: 100px;
+}
+
+.title2{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+.title3{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+h2{
+    color: white;
+    font-family: Arial;
+    font-size:20px;
+    outline: 3.5px solid white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.bg2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    color: white;
+    font-family: Arial;
+    outline: 3.5px solid white;
+}
+
+.bg3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.bg4{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../4.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.odin{
+    width:200px;
+    
+}
+
+h1{
+    color: white;
+    font-family: Norse;
+    font-size:20px;
+    
+    
+}
+.titlet{
+     position: absolute;
+    top: 30%;
+    left: 10%;
+    transform:translate(-50%,-50%);
+}
+
+.titley{
+     position: absolute;
+    top: 30%;
+    left: 28%;
+    transform:translate(-50%,-50%);
+}
+
+.titlez{
+     position: absolute;
+    top: 30%;
+    left: 70%;
+    transform:translate(-50%,-50%);
+}
+
+.titlei{
+     position: absolute;
+    top: 30%;
+    left: 90%;
+    transform:translate(-50%,-50%);
+}
+
+.bg5{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../bg5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title8{
+     position: absolute;
+    top: 90%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+    position:absolute;
+    top:20%;
+    left:25%;
+}
+
+.bg6{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
